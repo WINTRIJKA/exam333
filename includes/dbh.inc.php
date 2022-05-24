@@ -2,12 +2,9 @@
 
 $servername = "localhost";
 $username = "root";
-$password = "1234";
-$dBName = "exam333";
-//$servername = "https://lemon.beget.com/phpMyAdmin";
-//$username = "alexsoft_user59";
-//$password = "0GWWr8t%";
-//$dBName = "alexsoft_user59";
+$password = "password";
+$dBName = "name";
+
 
 $conn = mysqli_connect($servername, $username, $password, $dBName);
 if (!$conn) {
